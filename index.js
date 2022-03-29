@@ -1,5 +1,6 @@
 const express = require('express')
-const data = require('../public/data.json')
+const data = require('./public/data.json')
+const app = express()
 
 const port = process.env.port||3000
 
